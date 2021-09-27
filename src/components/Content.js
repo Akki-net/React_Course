@@ -3,7 +3,7 @@ import Part from "./Part";
 
 const Content = ({content}) => {
     return(
-        <div>
+        <div className="bg-light p-2">
             {content.map(
                 c =>
                 <Part key={c.id} name={c.name} exercise={c.exercises} 

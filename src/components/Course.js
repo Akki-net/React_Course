@@ -5,7 +5,7 @@ import Exercises from './Exercises';
 
 const Course = ({ course }) => {
     return(
-        <div>
+        <div className="container bg-info rounded py-1 mb-2">
             <Header header={course.name} /> 
             <Content content={course.parts} />
             <Exercises exercises={course.parts} /> 

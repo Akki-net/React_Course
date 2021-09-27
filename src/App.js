@@ -48,7 +48,7 @@ const App = () => {
   ];
 
   return (
-    <div>
+    <div className="jumbotron">
       {course.map(c =>
         <Course key={c.id} course={c} />
       )}
