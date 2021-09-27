@@ -1,11 +1,12 @@
 import React from 'react';
+import Header from './Header';
 
 const Course = (props) => {
     const { course } = props;
 
     return(
         <div>
-            <h1> {course.name} </h1>
+            <Header header={course.name} />
         </div>
     )
 };
